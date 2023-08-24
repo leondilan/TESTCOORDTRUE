@@ -33,9 +33,9 @@ $(document).ready(function () {
             }
               
             // Exemple d'utilisation
-            const centerCoord = { lat: 4.0511, lon: 9.7019 }; // Coordonnées du centre
+            const centerCoord = { lat: 4.077858293776681, lon: 9.788451886239725 }; // Coordonnées du centre
             const testCoord = { lat: latitude, lon: longitude }; // Coordonnées à tester
-            const radius = 1; // Rayon en mètres
+            const radius = 4; // Rayon en mètres
             
             const result = isInRadius(centerCoord, testCoord, radius);
 
